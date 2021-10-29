@@ -335,11 +335,28 @@
 
 
 /* This is the contact form (until the end) */
+
 .contact-form{
     background-color: #090f61;
     color: white;
     margin-top: 5%;
     height: 710px;
+}
+
+.contact1-form{
+    background-color: #090f61;
+    color: white;
+    margin-top: 5%;
+    height: 700px;
+}
+
+
+.contact-title{
+    color: black;
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 17pt;
+    white-space: nowrap;
 }
 
 .cont-text{
@@ -447,3 +464,4 @@ input[type="msg"]:hover{
     margin-left: 3%;
     margin-top: 10%;
 }
+

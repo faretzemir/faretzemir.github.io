@@ -3,7 +3,7 @@
 
     <head>
         <title>
-            Our Customers
+            Blackshore Software Solutions
         </title>
         <style>
             body {
@@ -17,12 +17,12 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 
         
-        <!-- To get out of templates, use ../static -->
+        <!-- To get out of the templates folder, use ../static -->
         <link rel="stylesheet" href="../static/css/style.css" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Unna&display=swap" rel="stylesheet"> 
     </head>
 
-    <body>
+    <body> 
         <div class="row">
             <div class="col">
                 <a class="index-button" href="index.html">
@@ -34,30 +34,27 @@
                 <nav class="navbar navbar-expand-sm bg-white">
 
                     <!-- Navbar Links -->
-                    <!-- Replace all # with html links later -->
+                    <!-- Replace all # with html links later (this is a note for me) -->
                     <!-- I need you to help me fix up the CSS for the navbar. Make it look prettier and add the hover color. -->
                     <ul class="navbar-nav">
                       <li class="nav-item1">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link navindex" href="index.html">Home</a>
                       </li>
 
                       <li class="nav-item2">
-                        <a class="nav-link" href="about-us.html">About Us</a>
+                        <a class="nav-link navabout" href="about-us.html">About Us</a>
                       </li>
 
                       <li class="nav-item3">
-                        <a class="nav-link" href="products.html">Our Products</a>
-                        <!-- IDK how to make the thing go to the index page first then scroll down. It just awkwardly switches pages and snaps to Products.-->
-                        <!--a data-smooth="#products" class="nav-link" href="#products"></a-->
+                        <a class="nav-link navproducts" href="products.html">Our Products</a>
                       </li>
 
                       <li class="nav-item4">
-                        <a class="nav-link" href="customers.html">Our Customers</a>
+                        <a class="nav-link navcustomers" href="customers.html">Our Customers</a>
                       </li>
 
                       <li class="nav-item5">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
-                        
+                        <a class="nav-link navcontact" href="contact.html">Contact Us</a>
                       </li>
                     </ul>
                   
@@ -65,45 +62,12 @@
             </div>
         </div>
 
-        <div class="row1 offset-md-3">
-            <h2>Our Customers</h2>
-            <p>Here is a list of our previous customers.</p>
+        <div class="container-fluid blue-bar1" id="contact">
+            <h2 class="contact-title">Please fill out the form below or Whatsapp us if you wish to request for a price quotation or a consultation session.</h2>
         </div>
 
-        <!-- Note: Do not add a number to the back of the name "row" otherwise it will drop the second column below the first. -->
-        <!-- Instead, to uniquely name it, just add another identifier after "row" -->
-        <div class="row cust1">
-            <div class="col-md-3 offset-md-3">
-                <!-- Use "img-fluid" to make the image conform to the container it is in -->
-                <img class="img-fluid nhs" src="../static/nhs.jpg" alt="NHS">
-            </div>
-
-            <div class="col-md-3">
-                <img class="img-fluid lm" src="../static/lm.png" alt="Lockheed Martin">
-            </div>
-        </div>
-
-        <div class="row cust2">
-            <div class="col-md-3 offset-md-3">
-                <img class="img-fluid malaysia" src="../static/malaysia.png" alt="Malaysian Government">
-            </div>
-
-            <div class="col-md-3">
-                <img class="img-fluid jlc" src="../static/jlc.png" alt="Jaeger-LeCoultre SA">
-            </div>
-        </div>
-
-        <div class="row cust3">
-            <div class="col-md-3 offset-md-3">
-                <img class="img-fluid db" src="../static/db.png" alt="Deutsche Bank AG">
-            </div>
-
-            <div class="col-md-3">
-                <img class="img-fluid aeoi" src="../static/aeoi.jpg" alt="Atomic Energy Organisation of Iran">
-            </div>
-        </div>
-
-        <div class="container-fluid contact-form">
+        <!-- This is where the contact form code starts. -->
+        <div class="container-fluid contact1-form" id="contact1">
             <div class="row cont-text">
                 <div class="d-flex justify-content-center">
                     <h2 class="cont-text">Contact Us</h2>
@@ -143,29 +107,9 @@
                 </div>
             </div>
 
-            <div class="row cont-info">
-                <div class="col-md-2 offset-md-3">
-                    <p class="addr">Address. 10610 North Tantau Avenue, Cupertino, CA 95014</p>
-                </div>
-
-                <div class="col-sm-2">
-                    <p class="tel">Tel. (408) 9611561</p>
-                </div>
-
-                <div class="col-sm-2">
-                    <p class="email">Email. inquiry@blackshore.com</p>
-                </div>
-            </div>
-
-            <div class="col-sm-3 offset-md-3">
-                <p class="copyright">
-                    © BlackShore Software Solutions 2021
-                </p>
-            </div>
             <script src="https://apps.elfsight.com/p/platform.js" defer></script>
             <div class="elfsight-app-10947eee-1317-47ad-a765-e7fd9c180e8b"></div>
         </div>
-
+        
     </body>
-
 </html>

@@ -62,39 +62,6 @@
             </div>
         </div>
 
-        <div class="row1">
-            <div class="col-md-12">
-                <div class="header-img">
-                    <a href="https://www.vecteezy.com/free-photos">
-                        <img class="img-fluid kl-night" src="../static/kl-night.jpg">
-                    </a>
-                </div>
-            </div>
-        <!-- bootstrap class comes first, and then the unique class we name ourselves. The unique name is what we reference in the css to make edits. -->
-        <!-- EG: Here, "card" is the BS Class and "intro-card" is the unique name I assigned it-->
-        <!-- I need you to help me with this card in particular. Its doing weird shit bro -->
-        
-            <div class="col-sm-6">
-                <div class="card intro-card">
-                    <h4 class="card-title">Blackshore<br>Software Solutions</h4>
-                    <p class="card-text">
-                        For all your software design, development and implementation needs. 
-                        Our solutions are tailored specifically to fit your requirements. 
-                        Our prices are reasonable, but also negotiable. 
-                        Please contact us via email for a price quotation.
-                    </p>
-                </div>
-            </div> 
-        </div>
-
-        <!-- Buttons for learning more about BlackShore here -->
-        <!-- I need help bro the buttons are doing weird shit and I'm scared. They duwan to go where they are supposed to :( -->
-        <div class="btn-group intro-btns">
-            <button type="button" class="btn intro1">
-                <a class="abt-us-link" href="about-us.html">+</a>
-            </button>
-        </div>
-
 
         <!-- I need you to help me fix the CSS for this part-->
         <div class="container-fluid blue-bar" id="products">
@@ -103,9 +70,6 @@
         </div>
 
 
-        <!-- This is where I added cards for the products -->
-        <!-- I need you to fix the spacing and font issues here under the h4 card-titles. -->
-        <!-- Also the cards are like weird sizes. Maybe fiddle around with the column sizes, idk -->
         <div class="row product-cards1 offset-md-2">
             <div class="col-md-3">
                 <div class="card products">
@@ -163,72 +127,6 @@
             </div>
         </div>
 
-        <!-- I added carousels here (the picture slide thingy) -->
-        <!-- Note: Changing the div ID to anything other than "carouselExampleCaptions" breaks the carousel. You may wanna look into why cause IDK bro -->
-        <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../static/light-gray.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Testimonials</h5>
-                  <p class="test-text">"The Records Management System provided by Blackshore Solutions 
-                      has made recording patient data a breeze since we implemented it in hospitals across the UK."</p>
-                  <h6>Simon Stevens,<br>CEO, National Health Service UK</h6>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <img src="../static/light-gray.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Testimonials</h5>
-                  <p class="test-text">"Blackshore Solutions has helped us keep track of our day-to-day business expenses 
-                      and transactions in a way that is infinitely better than the solutions we used before."</p>
-                  <h6>Antoine LeCoultre,<br>Founder, Manufacture Jaeger-LeCoultre SA</h6>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <img src="../static/light-gray.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Testimonials</h5>
-                  <p class="test-text">"Blackshore Solutions has provided us with an exceptional database 
-                      to keep track of our clients' financial information and personal data."</p>
-                  <h6>Christian Sewing,<br>CEO, Deutsche Bank AG</h6>
-                </div>
-              </div>
-            </div>
-
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-
-
-        <!-- This is the prices and consultation container-->
-        <div class="container-fluid price-cont">
-            <div class="col-md-8 offset-md-2 price-box">
-                <h2 class="price-text">
-                    Price Quotations and Consultation
-                </h2>
-
-                <p class="price-desc">
-                    Please fill out the form below if you wish to request for a price quotation or a consultation session. Our sales team will get in touch with you in a timely manner.
-                </p>
-            </div>
-        </div>
 
 
         <!-- This is where the contact form code starts. -->
@@ -295,38 +193,3 @@
             <script src="https://apps.elfsight.com/p/platform.js" defer></script>
             <div class="elfsight-app-10947eee-1317-47ad-a765-e7fd9c180e8b"></div>
         </div>
-
-
-
-
-
-
-
-
-
-
-        <!-- Smooth scroll JS for Contact Us-->
-        <script>
-
-            function smoothScroll(){
-                var TopOffset = 85;    
-
-                $('a[data-smooth]').click(function() {
-                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                        var target = $(this.hash);
-                        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                        if (target.length) {
-                        $('html, body').animate({
-                            scrollTop: target.offset().top - TopOffset
-                        }, 1000);
-                        return false;
-                        }
-                    }
-                });
-
-            }
-
-        </script>
-        
-    </body>
-</html>
