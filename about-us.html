@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>
+            About Us
+        </title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+        
+        <!-- To get out of templates, use ../static -->
+        <link rel="stylesheet" href="../static/css/style.css" type="text/css" media="all" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Unna&display=swap" rel="stylesheet"> 
+    </head>
+
+    <body>
+        <div class="row">
+            <div class="col">
+                <a class="index-button" href="index.html">
+                    <button class="button button1">BSS</button>
+                </a>
+            </div>
+
+            <div class="col-sm-8">
+                <nav class="navbar navbar-expand-sm bg-white">
+
+                    <!-- Navbar Links -->
+                    <!-- Replace all # with html links later (this is a note for me) -->
+                    <!-- I need you to help me fix up the CSS for the navbar. Make it look prettier and add the hover color. -->
+                    <ul class="navbar-nav">
+                      <li class="nav-item1">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+
+                      <li class="nav-item2">
+                        <a class="nav-link" href="about-us.html">About Us</a>
+                      </li>
+
+                      <li class="nav-item3">
+                        <a class="nav-link" href="index.html#products">Our Products</a>
+                        <!-- IDK how to make the thing go to the index page first then scroll down. It just awkwardly switches pages and snaps to Products.-->
+                        <!--a data-smooth="#products" class="nav-link" href="#products"></a-->
+                      </li>
+
+                      <li class="nav-item4">
+                        <a class="nav-link" href="customers.html">Our Customers</a>
+                      </li>
+
+                      <li class="nav-item5">
+                        <a class="nav-link" href="index.html#contact">Contact Us</a>
+                        
+                      </li>
+                    </ul>
+                  
+                  </nav>
+            </div>
+        </div>
+
+
+        <div class="row1">
+            <div class="col-sm-12">
+                <div class="header-img">
+                        <!-- I cropped the image here. You can find it under .startup in the CSS -->
+                        <img class="img-fluid startup" src="../static/startup.jpg">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- This is the row containing the profile card that says "Who are we?" -->
+        <div class="row2">
+            <div class="d-flex info-cont">
+                <div class="col-md-6 offset-md-3">
+                    <div class="card wrw-card">
+                        <img class="img-fluid wrw-backg" src="../static/light-gray.png" alt="Card background">
+                        <div class="card-img-overlay">
+                          <h3 class="card-title">Who are we?</h3>
+                          <p class="card-text">Our company profile, vision, mission and history.</p>
+                        </div>
+                      </div>
+                </div>  
+            </div>
+        </div>
+        
+        <!-- Company Profile card-->
+        <div class="row3">
+            <div class="d-flex profile-cont">
+                <div class="col-sm-2 offset-md-3">
+                    <div class="card prof-card">
+                        <img class="img-fluid prof-backg" src="../static/light-gray.png" alt="Card background">
+                        <div class="card-img-overlay">
+                          <h6 class="card-title prof-card-title">Company Profile</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bro I have no idea how to align the text with the box on top :'( pls help -->
+        <!-- NVM bro I found out. Use "offset-md-*" The * is replaced with the number of grid spaces you want to offset by. -->
+        <!-- Company profile description -->
+        <div class="row4">
+            <div class="col-sm-6 offset-md-3">
+                <p class="d-flex justify-content-center prof-card-text">Blackshore Software Solutions is a software development company based in Malaysia,
+                    comprising of computer engineers, software developers and IT specialists who deal with web API, database and high-level programming.
+                </p>
+            </div>
+        </div>
+        
+        <!-- History Card -->
+        <div class="row5">
+            <div class="d-flex profile-cont">
+                <div class="col-sm-2 offset-md-3">
+                    <div class="card hist-card">
+                        <img class="img-fluid prof-backg" src="../static/light-gray.png" alt="Card background">
+                        <div class="card-img-overlay">
+                          <h6 class="card-title prof-card-title">History</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- History description -->
+        <div class="row6">
+            <div class="col-md-6 offset-md-3">
+                <p class="d-flex justify-content-center">Blackshore Software Solutions was founded by two senior computer engineers in the rainy month of July in Malaysia.
+                    The company started out with only two people managing the planning, development and programming of solutions,
+                    but quickly grew to a sizeable count of 3200 employees worldwide.
+
+                    As of 2019, the company has moved its base of operations to Silicon Valley in the San Fransisco Bay Area of the state of California in the United States.
+                    In the same year, we expanded our offices to cater to clients in New York, London, Hong Kong, Macau, Guangzhou, Singapore
+                    whilst retaining the original office in Kuala Lumpur as well as the head office in Silicon Valley.
+                </p>
+            </div>
+        </div>
+
+        <!-- Mission Card -->
+        <div class="row7">
+            <div class="d-flex profile-cont">
+                <div class="col-sm-2 offset-md-3">
+                    <div class="card miss-card">
+                        <img class="img-fluid prof-backg" src="../static/light-gray.png" alt="Card background">
+                        <div class="card-img-overlay">
+                          <h6 class="card-title prof-card-title">Mission</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Mission card description -->
+        <div class="row6">
+            <div class="col-md-6 offset-md-3">
+                <p class="d-flex justify-content-center">
+                    Our mission is to enhance and make the day-to-day business  operations of our clients more efficient by designing, 
+                    developing and implementing tailor-made high quality solutions and services.
+                    <br>
+                    Our mission entails the following:
+                    <br>
+                    - Provide high quality software development for our clients that conform to the ISO 9001 industry standard.
+                    <br>
+                    - Provide easier access to financial, administrative, customer and stock keeping data for our clients' use.
+                    <br>
+                    - Provide secure but user-friendly database systems solutions conforming to strict regulations of the ISO 27002 industry standard.
+                </p>
+            </div>
+        </div>
+
+        <!-- Vision Card -->
+        <div class="row7">
+            <div class="d-flex profile-cont">
+                <div class="col-sm-2 offset-md-3">
+                    <div class="card vis-card">
+                        <img class="img-fluid prof-backg" src="../static/light-gray.png" alt="Card background">
+                        <div class="card-img-overlay">
+                          <h6 class="card-title prof-card-title">Vision</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Vision card description -->
+        <div class="row6">
+            <div class="col-md-6 offset-md-3">
+                <p class="d-flex justify-content-center">
+                    Blackstone Software Solutions is a leading software solutions company for software design and implementation that caters to top tier businesses,
+                    security companies and governments around the world.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="container-fluid contact-form">
+            <div class="row cont-text">
+                <div class="d-flex justify-content-center">
+                    <h2 class="cont-text">Contact Us</h2>
+                </div>
+            </div>
+
+            <div class="row user-input">
+                <div class="col-md-3 offset-md-3">
+                    <form class="form-group">
+                        <label for="name-input">Enter Your Name *</label>
+                        <input type="text" class="form-control" id="name-input" placeholder="Name">
+                    </form>
+                </div>
+
+                <div class="col-md-3">
+                    <form class="form-group">
+                        <label for="email-input">Enter Your Email *</label>
+                        <input type="text" class="form-control" id="email-input" placeholder="Email">
+                    </form>
+                </div>
+            </div>
+
+            <!-- I am not sure how to get the "Message" placeholder like the reference website-->
+            <!-- Also, the text goes over the bounding box and into nothingness when the user types a long paragraph. Need help here bro -->
+            <div class="row offset-md-3 msg-text">
+                <div class="col-md-8">
+                    <form class="form-group">
+                        <label for="msg-input">Type Your Message Here...</label>
+                        <input type="msg" class="form-control" id="msg-input" placeholder="Message">
+                    </form>
+                </div>
+            </div>
+
+            <div class="row submit">
+                <div class="d-flex justify-content-center">
+                    <input type="button" class="submit-btn" value="Submit">
+                </div>
+            </div>
+
+            <div class="row cont-info">
+                <div class="col-md-2 offset-md-3">
+                    <p class="addr">Address. 10610 North Tantau Avenue, Cupertino, CA 95014</p>
+                </div>
+
+                <div class="col-sm-2">
+                    <p class="tel">Tel. (408) 9611561</p>
+                </div>
+
+                <div class="col-sm-2">
+                    <p class="email">Email. inquiry@blackshore.com</p>
+                </div>
+            </div>
+
+            <div class="col-sm-3 offset-md-3">
+                <p class="copyright">
+                    © BlackShore Software Solutions 2021
+                </p>
+            </div>
+        </div>
+
+        <!-- Script to supposedly reset the page to the top when the navbar button "Our Products" is clicked but does not work atm-->
+        <script>
+            // direct browser to top right away
+            if (window.location.hash)
+                scroll(0,0);
+            // takes care of some browsers issue
+            setTimeout(function(){scroll(0,0);},1);
+        </script>
+
+    </body>
+
+</html>

@@ -1,0 +1,449 @@
+.html{
+    scroll-behavior: smooth;
+    
+}
+
+.body{
+    font-family: Monserrat;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* I suspect this CSS I put at the top fucked everything up a bit... Too scared to remove rn */
+.row{
+    padding: 4px 16px;
+}
+
+/* This is where the main coding starts */
+.button {
+    border: none;
+    color: white;
+    padding: 4px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button1 {
+    position: sticky;
+    background-color: white; 
+    color: #090f61; 
+    font-weight: 700;
+    font-size: 28px;
+    border: 6px solid #090f61;
+    top: 25px;
+  }
+  
+  /*    Adds a hover animation    */
+  .button1:hover {
+    background-color: white;
+    color: rgb(214, 29, 29);
+    font-weight: 700;
+    font-size: 28px;
+    border: 6px solid rgb(214, 29, 29);
+  }  
+
+  .navbar-nav{
+      padding: 16px 150px;
+  }
+
+  /*    Here is where to edit css for individual navbar buttons   */
+
+  /*   Home   */
+  .nav-item1{
+    padding: 10px 30px;
+    font-weight: 650;
+    font-size: 20px;
+    color: red;
+  }
+
+  .navindex{
+    color: #090f61;
+  }
+
+  .navindex:hover{
+    color: red;
+  }
+
+  .navabout{
+    color: #090f61;
+  }
+
+  .navabout:hover{
+    color: red;
+  }
+
+  .navproducts{
+    color: #090f61;
+  }
+
+  .navproducts:hover{
+    color: red;
+  }
+
+  .navcustomers{
+    color: #090f61;
+  }
+
+  .navcustomers:hover{
+    color: red;
+  }
+
+  .navcontact{
+    color: #090f61;
+  }
+
+  .navcontact:hover{
+    color: red;
+  }
+
+  /*   About Us   */
+  .nav-item2{
+    padding: 10px 30px;
+    font-weight: 650;
+    font-size: 20px;
+    
+  }
+
+  /*   Our Products   */
+  .nav-item3{
+    padding: 10px 30px;
+    font-weight: 650;
+    font-size: 20px;
+   
+  }
+
+  /*   Our Customers   */
+  .nav-item4{
+    padding: 10px 30px;
+    font-weight: 650;
+    font-size: 20px;
+    
+  }
+
+  /*   Contact Us   */
+  .nav-item5{
+    padding: 10px 30px;
+    font-weight: 650;
+    font-size: 20px;
+    
+  }
+
+/* This is the KL banner on the homepage */
+ .kl-night{
+     align-content: left;
+     height: 500px;
+ }
+
+ /* here is the intro card that introduces BlackShore */
+.intro-card{
+    background-color: rgb(236, 230, 230);
+
+    width:600px; 
+    height:400px; 
+    float: right;
+    /*float: right;*/
+    bottom:450px; 
+    left:870px
+}
+
+.card-title{
+    padding-top: 20pt;
+    padding-left: 10pt;
+    padding-bottom: 20px;
+    font-family: Unna;
+    font-weight: bold;
+    font-size: 34px;
+    color: #090f61;
+}
+
+.card-text1{
+    padding-left: 10pt;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.card-text{
+    padding-left: 10pt;
+    padding-top: 32pt;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* These are the buttons that are supposed to go with the intro card */
+/* I can't position them correctly. Need help here. */
+.intro-btns{
+    bottom: 250px;
+    
+}
+
+.intro1{
+    background-color: #090f61;
+    align-content: center;
+    color: white;
+    font-size: 20px;
+    padding: 8px 16px;
+    padding-bottom: 12px;
+}
+
+.intro1:hover{
+    background-color: rgb(214, 29, 29);
+    color: white;
+}
+
+.intro2{
+    background-color: rgb(214, 29, 29);;
+    align-content: center;
+    color: white;
+    font-size: 20px;
+    padding: 8px 16px;
+    padding-bottom: 12px;
+}
+
+.intro2:hover{
+    background-color: #090f61;
+    color: white;
+}
+
+/* This is the start of the products cards */
+.blue-bar{
+    height: 350px;
+    background-color: #090f61;
+}
+
+
+.products-title{
+    color: white;
+    padding-top: 40px;
+    padding-left: 10px;
+    font-size: 45pt;
+    white-space: nowrap;
+}
+
+.products-desc{ 
+    color: white;
+    padding-top: 20px;
+    font-size: 15pt;
+    padding-left: 10px;
+    white-space: nowrap;
+}
+
+.products{
+    height: 200pt;
+    background-color: rgba(252, 245, 245, 0.712);
+    top: 30pt;
+}
+
+/* This is the carousel that holds all the testimonicles */
+.carousel .carousel-item {
+    height: 500px;
+    margin-top: 5%;
+}
+  
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 50px;
+}
+
+.test-text{
+    font-size: 32px;
+}
+
+/* This is the image banner for the about-us page */
+.startup{
+    width: 1650px;
+    height: 600px;
+    object-fit: cover;
+    object-position: 20% 20%;
+}
+
+.info-cont{
+    align-content: center;
+}
+
+/* you might need to adjust the container size here. I didn't add a container class, but it would be .wrw-card */
+/* I guess you should add it above this one */
+.wrw-backg{
+    /*width: 650px;*/
+    height: 200px;
+    object-fit: cover;
+    object-position: 20% 20%;
+}
+
+/* These are the cards for the about-us page that hold the titles like History, vision, mission, etc */
+.prof-card{
+    margin-top: 40px;
+    
+}
+
+.prof-backg{
+    height: 100px;
+}
+
+.prof-card-title{
+    font-size: 24px;
+}
+
+.hist-card{
+    margin-top: 40px;
+}
+
+.miss-card{
+    margin-top: 40px;
+
+}
+
+.vis-card{
+    margin-top: 40px;
+
+}
+
+/* This is the price quotation card  and the buttons too */
+.price-cont{
+    margin-top: 3%;
+    background-color:rgb(216, 214, 214);
+    width: 50%;
+    height: 300px;
+    left: 50%;
+}
+
+.price-text{
+    padding-top: 30pt;
+    white-space: normal;
+    text-align: center;
+}
+
+.price-desc{
+    padding-top: 50pt;
+    white-space: normal;
+    text-align: center;
+}
+
+
+
+
+/* This is the contact form (until the end) */
+.contact-form{
+    background-color: #090f61;
+    color: white;
+    margin-top: 5%;
+    height: 710px;
+}
+
+.cont-text{
+    margin-top: 4%;
+    padding-bottom: 20pt;
+}
+
+input[type="text"]{
+    margin-top: 5px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-radius: 0px;
+    border-bottom: 1px solid white;
+
+}
+
+input[type="text"]:focus{
+    margin-top: 5px;
+    background: transparent;
+    border-style: solid;
+    box-shadow: none;
+    color: white;
+}
+
+input[type="text"]:hover{
+    margin-top: 5px;
+    background: transparent;
+    border-style: solid;
+    border-color: white;
+    outline: 1px solid white;
+    outline-style: outset;
+}
+
+.msg-text{
+    margin-top: 15px;
+    margin-left: 24.3%;
+}
+
+input[type="msg"]{
+    margin-top: 5px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-radius: 0px;
+    border-bottom: 1px solid white;
+    height: 100px;
+}
+
+input[type="msg"]:focus{
+    margin-top: 5px;
+    background: transparent;
+    border-style: solid;
+    box-shadow: none;
+    color: white;
+}
+
+input[type="msg"]:hover{
+    margin-top: 5px;
+    background: transparent;
+    border-style: solid;
+    border-color: white;
+    outline: 1px solid white;
+    outline-style: outset;
+}
+
+.submit{
+    padding-top: 30pt;
+}
+
+.submit-btn{
+    padding: 3px 30px;
+    font-size: 22px;
+    border-radius: 0px;
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+.submit-btn:hover{
+    padding: 3px 30px;
+    font-size: 22px;
+    border-radius: 0px;
+    border: none;
+    background: red;
+}
+
+.cont-info{
+    margin-top: 2.5%;
+}
+
+.addr{
+    margin-left: 3%;
+}
+
+.tel{
+    margin-left: 30%
+}
+
+.email{
+    margin-left: 5%;
+}
+
+.copyright{
+    margin-left: 3%;
+    margin-top: 10%;
+}
