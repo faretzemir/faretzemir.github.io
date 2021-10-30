@@ -31,34 +31,33 @@
             </div>
 
             <div class="col-sm-8">
-                <nav class="navbar navbar-expand-sm bg-white">
-
+                <nav class="navbar navbar-expand-xl bg-white">
                     <!-- Navbar Links -->
                     <!-- Replace all # with html links later (this is a note for me) -->
                     <!-- I need you to help me fix up the CSS for the navbar. Make it look prettier and add the hover color. -->
-                    <ul class="navbar-nav">
-                      <li class="nav-item1">
-                        <a class="nav-link navindex" href="index.html">Home</a>
-                      </li>
+                        <ul class="navbar-nav">
+                        <li class="nav-item1">
+                            <a class="nav-link navindex" href="index.html">Home</a>
+                        </li>
 
-                      <li class="nav-item2">
-                        <a class="nav-link navabout" href="about-us.html">About Us</a>
-                      </li>
+                        <li class="nav-item2">
+                            <a class="nav-link navabout" href="about-us.html">About Us</a>
+                        </li>
 
-                      <li class="nav-item3">
-                        <a class="nav-link navproducts" href="products.html">Our Products</a>
-                      </li>
+                        <li class="nav-item3">
+                            <a class="nav-link navproducts" href="products.html">Our Products</a>
+                        </li>
 
-                      <li class="nav-item4">
-                        <a class="nav-link navcustomers" href="customers.html">Our Customers</a>
-                      </li>
+                        <li class="nav-item4">
+                            <a class="nav-link navcustomers" href="customers.html">Our Customers</a>
+                        </li>
 
-                      <li class="nav-item5">
-                        <a class="nav-link navcontact" href="contact.html">Contact Us</a>
-                      </li>
-                    </ul>
-                  
-                  </nav>
+                        <li class="nav-item5">
+                            <a class="nav-link navcontact" href="contact.html">Contact Us</a>
+                        </li>
+                         </ul>
+                     
+                </nav>
             </div>
         </div>
 
@@ -68,6 +67,7 @@
                     <a href="https://www.vecteezy.com/free-photos">
                         <img class="img-fluid kl-night" src="../static/kl-night.jpg">
                     </a>
+                    <br /> <br /> 
                 </div>
             </div>
         <!-- bootstrap class comes first, and then the unique class we name ourselves. The unique name is what we reference in the css to make edits. -->
@@ -89,79 +89,16 @@
 
         <!-- Buttons for learning more about BlackShore here -->
         <!-- I need help bro the buttons are doing weird shit and I'm scared. They duwan to go where they are supposed to :( -->
-        <div class="btn-group intro-btns">
-            <button type="button" class="btn intro1">
-                <a class="abt-us-link" href="about-us.html">+</a>
-            </button>
-        </div>
+        
 
 
         <!-- I need you to help me fix the CSS for this part-->
         <div class="container-fluid blue-bar" id="products">
-                <h2 class="products-title">Our Products</h2>
-                <p class="products-desc">We offer a wide variety of solutions for a wide range of requirements for our clients.</p>
+                <h2 class="products-title">Our Milestone</h2>
+                <p class="products-desc">With over 500 customers served worldwide, customers' satisfaction is what it all matters.</p>
         </div>
 
 
-        <!-- This is where I added cards for the products -->
-        <!-- I need you to fix the spacing and font issues here under the h4 card-titles. -->
-        <!-- Also the cards are like weird sizes. Maybe fiddle around with the column sizes, idk -->
-        <div class="row product-cards1 offset-md-2">
-            <div class="col-md-3">
-                <div class="card products">
-                    <h4 class="card-title">Medical Record Management Systems</h4>
-                    <p class="card-text">
-                        For hospitals and clinics to keep track of patient 
-                        and doctor visitations as well as drug inventory management.
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card products">
-                    <h4 class="card-title">Government Database Systems</h4>
-                    <p class="card-text">
-                        For governing bodies such as police forces, paramilitaries, census etc.
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card products">
-                    <h4 class="card-title">Intercontinental Ballistic Missile (ICBM) Deployment Systems</h4>
-                    <p class="card-text1">
-                        For governments and weapons manufacturers to manage 
-                        and deploy nuclear weapons as well as keep track of any missiles deployed.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Please add a space in between the rows. IDK how at the moment -->
-        <div class="row product-cards2 offset-md-2">
-            <div class="col-sm-3">
-                <div class="card products">
-                    <h4 class="card-title">Finance and Asset Management Systems</h4>
-                    <p class="card-text">
-                        For banks, financial institutions or businesses to keep track of cash flow and assets.
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card products">
-                    <h4 class="card-title">Satellite Fleet Management Systems</h4>
-                    <p class="card-text">
-                        For space agencies to monitor and deploy satellites.
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card products">
-                    <h4 class="card-title">Nuclear Power Management Systems</h4>
-                    <p class="card-text">
-                        For nuclear plants to keep track of power delivery and easily shut down plants in case of an emergency.
-                    </p>
-                </div>
-            </div>
-        </div>
 
         <!-- I added carousels here (the picture slide thingy) -->
         <!-- Note: Changing the div ID to anything other than "carouselExampleCaptions" breaks the carousel. You may wanna look into why cause IDK bro -->
@@ -175,7 +112,7 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="../static/light-gray.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                   <h5>Testimonials</h5>
                   <p class="test-text">"The Records Management System provided by Blackshore Solutions 
                       has made recording patient data a breeze since we implemented it in hospitals across the UK."</p>
@@ -185,17 +122,17 @@
 
               <div class="carousel-item">
                 <img src="../static/light-gray.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                   <h5>Testimonials</h5>
                   <p class="test-text">"Blackshore Solutions has helped us keep track of our day-to-day business expenses 
                       and transactions in a way that is infinitely better than the solutions we used before."</p>
-                  <h6>Antoine LeCoultre,<br>Founder, Manufacture Jaeger-LeCoultre SA</h6>
+                  <h6>Antoine LeCoultre,<br>Founder, Manufacture J-LeCoultre SA</h6>
                 </div>
               </div>
 
               <div class="carousel-item">
                 <img src="../static/light-gray.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                   <h5>Testimonials</h5>
                   <p class="test-text">"Blackshore Solutions has provided us with an exceptional database 
                       to keep track of our clients' financial information and personal data."</p>
